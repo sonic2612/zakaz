@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Tahoma;
+	font-size:18px;
+	text-transform: uppercase;
+}
+.wrap{
+	position: relative;
+	width: 1200px;
+	margin: 20px auto;
+}
+h1{
+	font-size: 28px;
+	color: black;
+	text-align: center;
+	margin: 30px 0 50px;
+	font-weight: normal;
+}
+h2{
+	position: relative;
+	font-size: 18px;
+	color: #72767a;
+	font-weight: normal;
+	line-height: 30px;
+	padding: 45px 0 35px;
+	cursor: pointer;
+	border-bottom: 1px solid #d3d3d3;
+}
+img{
+	padding: 15px 0;
+}
+.p-blue{
+	color: #009be1;
+}
+.money{
+	font-size: 14px;
+	color: black;
+	margin: 30px auto;
+}
+.table{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+}
+.number {
+    font-size: 18px;
+}
+.colom{
+	width: 215px;
+	display: inline-block;
+	border-right: 1px solid #d3d3d3;
+	padding: 0 15px;
+}
+.btn-left::before{
+    content: "<";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 86px;
+    left: -42px;
+    border: 2px solid #c0c0c0;
+    color: #c0c0c0;
+    font-size: 30px;
+    padding: 4px 5px 7px;
+    border-radius: 26px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn-right::before{
+    content: ">";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 86px;
+    right: -42px;
+    border: 2px solid #c0c0c0;
+    color: #c0c0c0;
+    font-size: 30px;
+    padding: 4px 5px 7px;
+    border-radius: 26px;
+    background-color: white;
+    cursor: pointer;
+}
+.colom:last-child{
+	border-right: none;
+}
+button{
+	line-height: 15px;
+	padding: 15px 40px;
+	background-color: #f0e524;
+	font-size: 12px;
+	margin-bottom: 25px; 
+	text-transform: uppercase;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.mar-button{
+	margin-bottom: 82px;
+}
+.pink {
+    background-color: #cc3399;
+    color: white;
+}
+.circle{
+	position: absolute;
+	top: -28px;
+  left: 155px;
+	width: 60px;
+	height: 60px;
+	background: #86b022;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 30px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 55px;
+	cursor: pointer;
+	outline: 5px solid white;
+}
+.circle-two{
+	position: absolute;
+	top: -30px;
+	right: 0px;
+	width: 60px;
+	height: 60px;
+	background: #009de1;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 30px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	cursor: pointer;
+	outline: 5px solid white;
+	line-height: 14px;
+}
